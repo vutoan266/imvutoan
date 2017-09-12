@@ -101,7 +101,7 @@ span.menu{
 }
 /*--banner-info--*/
 .banner-info {
-    background:rgba(23, 20, 20, 0.58);
+    background:rgba(255,255,255, 0.5);
     margin-top: 4em;
 }
 .header-left {
@@ -118,7 +118,8 @@ ul.address {
 }
 .header-left img {
     width: 100%;
-     margin-top: 19px;
+	margin-top: 19px;
+	border-radius: 50%;
 }
 .header-right {
     padding-left: 3em;
@@ -172,7 +173,7 @@ ul.address {
 }
 .header-right h6 {
        font-size: 1em;
-    color: #C7C7C7;
+    color: #eb5424;
     margin-top: 0.8em;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -188,7 +189,7 @@ ul.address li {
 ul.address li ul.address-text li {
     display: inline-block;
     font-size: 1em;
-    color: #fff;
+    /* color: #fff; */
     margin-top: 1em;
 	font-weight: 400;
 }
@@ -196,14 +197,14 @@ ul.address li ul.address-text li:nth-child(1){
 	width: 20%;
 }
 ul.address li ul.address-text li a {
-    color: #fff;
+    /* color: #fff; */
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
         color: #eb5424;
 }
 ul.address-text b {
-    color:#fff;
+    /* color:#fff; */
 }
 /*--social-icons--*/
 ul.social-icons{
